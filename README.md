@@ -6,8 +6,8 @@ bash script menggunakan [ffmpeg](https://www.ffmpeg.org/) dan [pytube](https://p
 sesuaikan `source /path/to/venv/folder/bin/activate` dengan folder venv kalian masing - masing
 
 untuk menjalankan script,
-- beri ijin eksekusi (misalnya, `sudo chmod +x ytdl.sh` atau melalui properties)
-- ketik `./ytdl.sh` di terminal
+1. beri ijin eksekusi (misalnya, `sudo chmod +x ytdl.sh` atau melalui properties)
+2. ketik `./ytdl.sh` di terminal
 
 download video masih terbatas di 360p, 480p, 720p
 

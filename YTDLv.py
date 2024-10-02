@@ -11,8 +11,10 @@ resolusi = str(input("Pilih Resolusi (1/2/3): "))
 
 if resolusi == '1':
     print("Sedang Download")
-    video = yt.streams.get_by_itag(18)
-    video.download()
+    video = yt.streams.get_by_itag(134)
+    video.download(filename_prefix="TEMP ")
+    audio = yt.streams.get_by_itag(251)
+    audio.download()
 elif resolusi == '2':
     print("Sedang Download")
     video = yt.streams.get_by_itag(135)
